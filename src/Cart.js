@@ -1,6 +1,6 @@
 function Cart() {
   const products = [];
-  //it should contain { id, name, price, quantity }
+  //it should contain { id, title, price }
   let totalPrice = 0;
 
   const generateId = () => {

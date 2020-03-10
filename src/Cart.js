@@ -1,6 +1,5 @@
 function Cart() {
   const products = [];
-  //it should contain { id, title, price }
   let totalPrice = 0;
 
   const generateId = () => {
@@ -18,7 +17,6 @@ function Cart() {
     return Number(totalPrice.toFixed(2));
   };
   const addProduct = ({ name, price, quantity }) => {
-    console.log(quantity);
     for (let i = 0; i < quantity; i++) {
       products.push({ id: generateId(), name, price });
       totalPrice += price;

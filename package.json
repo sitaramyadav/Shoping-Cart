@@ -1,9 +1,7 @@
 {
-  "name": "Shoping-Cart",
+  "name": "shoping-cart",
   "version": "1.0.0",
   "main": "index.js",
-  "repository": "https://github.com/sitaramyadav/Shoping-Cart.git",
-  "author": "Seetaram Yadav",
   "license": "MIT",
   "scripts": {
     "test": "jest",
@@ -14,11 +12,10 @@
       "^.+\\.jsx?$": "babel-jest"
     }
   },
-  "dependencies": {
-    "jest": "^25.1.0"
-  },
   "devDependencies": {
     "@babel/preset-env": "^7.8.7",
-    "babel-jest": "^25.1.0"
+    "babel-jest": "^25.1.0",
+    "jest": "^25.1.0"
+
   }
 }

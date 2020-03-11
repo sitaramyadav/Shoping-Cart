@@ -1,7 +1,7 @@
 import Cart from "./Cart";
 
 describe("Cart", () => {
-  it("Should add 5 Dove Soaps and 3 Dove Soaps into cart", () => {
+  it("Should add 5 and 3 Dove Soaps", () => {
     const cart = new Cart();
 
     cart.addProduct({ name: "Dove Soap", price: 39.99, quantity: 5 });
